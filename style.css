@@ -6,7 +6,7 @@
 .bck{
     font-family: Poppins;
     font-size: 15px;
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 .main{
@@ -37,9 +37,10 @@ h3{
     font-size: 25px;
     width: auto;
 }
-.h3{
+.h32{
     font-weight: 600;
-}.p{
+}
+.p{
     width: 100%;
     font-weight: 200;
     display: flex;
@@ -56,7 +57,7 @@ h3{
 .one{
     align-self: center;
     width: 30%;
-    font-size: 10px;
+    font-size: 12px;
     height: 200px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -104,7 +105,7 @@ h3{
 }
 .half{
     width: 100%;
-    font-size: 10px;
+    font-size: 12px;
     height: 200px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -145,7 +146,7 @@ h3{
 }
 .half2{
     width: 100%;
-    font-size: 10px;
+    font-size: 12px;
     height: 200px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -187,7 +188,7 @@ h3{
 .three{
     align-self: center;
     width: 30%;
-    font-size: 10px;
+    font-size: 12px;
     height: 200px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -225,4 +226,174 @@ h3{
     margin-right: 20px;
     margin-bottom: 20px;
     width: 60px;
+}
+.pm{
+    display: none;
+}
+.twom{
+    display: none;
+}
+.threem{
+    display: none;
+}
+
+
+@media (min-width:320px) and (max-width:610px) {
+    .bck{
+        font-family: Poppins;
+        font-size: 15px;
+        height: auto;
+        width: 100%;
+    }
+    .main{
+        font-weight: 200;
+        height: 1200px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .firsthalf{
+        width: 100%;
+    }
+    .firsthalf h3{
+        font-size: 27px;
+    }
+    .pd{
+        display: none;
+    }
+    .pm{
+        width: 100%;
+        font-weight: 200;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px;
+    }.secondhalf{
+        height: 900px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-self: center;
+    }
+    .one{
+        align-self: center;
+        width: 80%;
+        font-size: 12px;
+        height: 200px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 4px 10px  hsl(229, 6%, 66%);
+    }
+    .three{
+        align-self: center;
+        width: 80%;
+        font-size: 12px;
+        height: 200px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 4px 10px  hsl(229, 6%, 66%);
+    }
+    .two{
+        display: none;
+    }
+    .twom{
+        
+        align-self: center;
+        width: 80%;
+        font-size: 12px;
+        height: 200px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 4px 10px  hsl(229, 6%, 66%);
+    }
+    
+    .twom .hp{
+        height: 100px;
+        width: 90%;
+    }
+    .twom hr{
+        align-self: normal;
+        border: none;
+        height: 5px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        background-color: hsl(0, 78%, 62%);
+        display: flex;
+        justify-self: inherit;
+    }
+    .twom h4{
+        width: 90%;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .twom p{
+        width: 90%;
+        text-align: start;
+    }
+    .twom img{
+        align-self: flex-end;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        width: 60px;
+    }
+    
+    .threem{
+        
+        align-self: center;
+        width: 80%;
+        font-size: 12px;
+        height: 200px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 4px 10px  hsl(229, 6%, 66%);
+    }
+    
+    .threem .hp{
+        height: 100px;
+        width: 90%;
+    }
+    .threem hr{
+        align-self: normal;
+        border: none;
+        height: 5px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        background-color: hsl(34, 97%, 64%);
+        display: flex;
+        justify-self: inherit;
+    }
+    .threem h4{
+        width: 90%;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .threem p{
+        width: 90%;
+        text-align: start;
+    }
+    .threem img{
+        align-self: flex-end;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        width: 60px;
+    }
 }
