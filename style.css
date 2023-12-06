@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .bck{
+    color: hsl(234, 12%, 34%);
     font-family: Poppins;
     font-size: 15px;
     height: auto;
@@ -40,7 +41,8 @@ h3{
 .h32{
     font-weight: 600;
 }
-.p{
+.pd{
+    color: hsl(229, 6%, 66%);
     width: 100%;
     font-weight: 200;
     display: flex;
@@ -87,6 +89,7 @@ h3{
     font-weight: 600;
 }
 .one p{
+    color: hsl(229, 6%, 66%);
     width: 90%;
     text-align: start;
 }
@@ -135,6 +138,7 @@ h3{
     font-weight: 600;
 }
 .half p{
+    color: hsl(229, 6%, 66%);
     width: 90%;
     text-align: start;
 }
@@ -176,6 +180,7 @@ h3{
     font-weight: 600;
 }
 .half2 p{
+    color: hsl(229, 6%, 66%);
     width: 90%;
     text-align: start;
 }
@@ -218,6 +223,7 @@ h3{
     font-weight: 600;
 }
 .three p{
+    color: hsl(229, 6%, 66%);
     width: 90%;
     text-align: start;
 }
@@ -264,6 +270,7 @@ h3{
         display: none;
     }
     .pm{
+        color: hsl(229, 6%, 66%);
         width: 100%;
         font-weight: 200;
         display: flex;
@@ -342,6 +349,7 @@ h3{
         font-weight: 600;
     }
     .twom p{
+        color: hsl(229, 6%, 66%);
         width: 90%;
         text-align: start;
     }
@@ -387,6 +395,7 @@ h3{
         font-weight: 600;
     }
     .threem p{
+        color: hsl(229, 6%, 66%);
         width: 90%;
         text-align: start;
     }
