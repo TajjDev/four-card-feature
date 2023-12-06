@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bck{
+    font-family: Poppins;
+    font-size: 15px;
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    font-weight: 200;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.firsthalf{
+    width: 80%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.h3s{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    font-weight: 200;
+    font-size: 25px;
+    width: auto;
+}
+.h3{
+    font-weight: 600;
+}.p{
+    width: 100%;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.secondhalf{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+.one{
+    align-self: center;
+    width: 30%;
+    font-size: 10px;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px  hsl(229, 6%, 66%);
+}
+.one .hp{
+    height: 100px;
+    width: 90%;
+}
+.one hr{
+    align-self: normal;
+    border: none;
+    height: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: hsl(180, 62%, 55%);
+    display: flex;
+    justify-self: inherit;
+}
+.one h4{
+    width: 90%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.one p{
+    width: 90%;
+    text-align: start;
+}
+.one img{
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 60px;
+}
+.two{
+    height: 430px;
+    width: 30%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.half{
+    width: 100%;
+    font-size: 10px;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px  hsl(229, 6%, 66%);
+}
+.half .hp{
+    height: 100px;
+    width: 90%;
+}
+.half hr{
+    align-self: normal;
+    border: none;
+    height: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: hsl(0, 78%, 62%);
+    display: flex;
+    justify-self: inherit;
+}
+.half h4{
+    width: 90%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.half p{
+    width: 90%;
+    text-align: start;
+}
+.half img{
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 60px;
+}
+.half2{
+    width: 100%;
+    font-size: 10px;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px  hsl(229, 6%, 66%);
+}
+.half2 .hp{
+    height: 100px;
+    width: 90%;
+}
+.half2 hr{
+    align-self: normal;
+    border: none;
+    height: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: hsl(34, 97%, 64%);
+    display: flex;
+    justify-self: inherit;
+}
+.half2 h4{
+    width: 90%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.half2 p{
+    width: 90%;
+    text-align: start;
+}
+.half2 img{
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 60px;
+}
+.three{
+    align-self: center;
+    width: 30%;
+    font-size: 10px;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px  hsl(229, 6%, 66%);
+}
+.three .hp{
+    height: 100px;
+    width: 90%;
+}
+.three hr{
+    align-self: normal;
+    border: none;
+    height: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: hsl(212, 86%, 64%);
+    display: flex;
+    justify-self: inherit;
+}
+.three h4{
+    width: 90%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.three p{
+    width: 90%;
+    text-align: start;
+}
+.three img{
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 60px;
+}
